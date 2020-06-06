@@ -1,0 +1,11 @@
+<resources>
+  <string name="app_name">StudyDownload</string>
+  <string name="start">开始（如已下载完，点击无效）</string>
+  <string name="cancel">取消</string>
+  <string name="download_progress">"%d/%d"</string>
+  <string name="start_download">开始下载</string>
+  <string name="downloading">正在下载中</string>
+  <string name="cancel_download">停止下载</string>
+  <string name="download_path">文件已下载完，路径：%s</string>
+  <string name="clear">清除已下载的数据</string>
+</resources>

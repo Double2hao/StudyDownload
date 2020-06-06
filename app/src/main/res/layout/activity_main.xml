@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity"
+    >
+
+  <TextView
+      android:id="@+id/tv_progress_download"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:textSize="25sp"
+      tools:text="1234/14444"
+      />
+
+  <ProgressBar
+      android:id="@+id/pb_download"
+      style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:max="100"
+      tools:progress="50"
+      />
+
+  <Button
+      android:id="@+id/btn_start_download"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/start"
+      />
+
+  <Button
+      android:id="@+id/btn_cancel_download"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/cancel"
+      />
+  <Button
+      android:id="@+id/btn_clear_download"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/clear"
+      />
+
+
+</LinearLayout>
